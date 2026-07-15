@@ -8,25 +8,25 @@ import Contact from "../components/sections/Contact";
 import Footer from "../components/layout/Footer";
 
 function Home() {
-  return (
-    <>
-      <Header />
+    return (
+        <>
+        <Header />
 
-      <Hero />
+        <Hero />
 
-      <About />
+        <About />
 
-      <Pricing />
+        <Pricing />
 
-      <Booking />
+        <Booking />
 
-      <Instructor />
+        <Instructor />
 
-      <Contact />
+        <Contact />
 
-      <Footer />
-    </>
-  );
+        <Footer />
+        </>
+    );
 }
 
 export default Home;

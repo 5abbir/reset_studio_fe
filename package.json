@@ -1,8 +1,10 @@
 {
+  "$schema": "https://json.schemastore.org/package.json",
   "name": "reset-studio-fe",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
