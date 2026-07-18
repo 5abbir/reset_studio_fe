@@ -57,6 +57,7 @@ const BookingWidget: React.FC = () => {
   };
 
   return (
+    <section id='booking'>
     <div className="w-full max-w-5xl mx-auto p-6 font-sans antialiased text-[#1C1A17]">
       {/* Page Title Headers */}
       <span className="text-xs font-bold tracking-[0.12em] text-[#B35C38] uppercase block mb-2">
@@ -187,7 +188,9 @@ const BookingWidget: React.FC = () => {
         </div>
       </div>
     </div>
-  );
+    </section>
+  );   
+    
 };
 
 export default BookingWidget;
