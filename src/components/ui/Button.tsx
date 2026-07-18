@@ -24,7 +24,7 @@
 const variantStyles = {
 default: "bg-transparent border-[#1a1612] hover:bg-[#1a1612] hover:text-[#fbf9f6] text-[#1a1612]",
 primary: "bg-[#4a5d4e] border-[#4a5d4e] text-white hover:bg-[#1a1612] hover:border-[#1a1612]",
-clay:    "bg-[#e06a3b] border-[#e06a3b] text-white hover:bg-[#9c4d31] hover:border-[#9c4d31]", // Solid Orange -> Dark Orange
+clay:    "bg-[#c1623f] border-[#c1623f] text-white hover:bg-[#9c4d31] hover:border-[#9c4d31]", // Solid Orange -> Dark Orange
 white:   "bg-white border-white text-[#4a5d4e] hover:bg-[#f5f2eb] hover:text-[#1a1612]",
 ghost:   "bg-white/10 border-white/25 text-white hover:bg-white/20"
 };
