@@ -11,11 +11,6 @@
 --r:6px;
 }
 
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @layer base {
 /* 1. Global Reset overrides (Tailwind already does box-sizing/margin/padding by default) */
 html {
