@@ -48,6 +48,7 @@ export default function InstructorsSection() {
   const [instructors, setInstructors] = useState<Instructor[]>([]);
 
   useEffect(() => {
+    localStorage.clear();
     const localData = localStorage.getItem('instructors');
     if (localData) {
       try {
